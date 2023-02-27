@@ -1,0 +1,409 @@
+@import "normalize.scss" 
+@import "resets.scss" 
+*
+    box-sizing: border-box
+
+@font-face 
+    font-family: "mr_VlaShu"
+    src: url('../fonts/20354 (1).otf')
+    font-style: normal
+@font-face 
+    font-family: "Bowler"
+    src: url(../fonts/ofont.ru_Bowler.ttf)
+    font-style: normal
+@font-face 
+    font-family: "Dela Gothic One"
+    src: url(../fonts/DelaGothicOne-Regular.ttf)
+    font-style: normal
+
+
+
+
+
+.container
+    max-width: 1140px
+    margin: 0 auto
+.main-section
+    height: 800px
+    background: black
+    padding-top: 16px
+    &__nav-container
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        height: 69px
+        align-items: center
+
+    &__content-container
+        display: flex
+        flex-direction: row
+    .header
+        display: flex
+        flex-direction: row
+        &__name
+            color: white
+            font-size: 17px
+            margin-top: 30px
+            align-items: center
+
+    
+.nav-menu
+    &__list
+        display: flex
+        flex-direction: row
+    &__list-item
+        margin-right: 107px
+        font-size: 20px
+        color: white
+        &:last-child
+            margin-right: 0px
+        a
+            text-decoration: none
+            color: white
+.left-wrapper
+    position: relative
+    .title
+    
+        color: rgba(193, 19, 138, 1)
+        font-family: "mr_VlaShu"
+   
+
+        font-size: 102px
+    
+        position: relative
+        position: absolute
+        left: 10px
+        top: 120px
+
+    .titlee
+        color: rgba(193, 19, 138, 1)
+        font-size: 102px
+        font-family: "mr_VlaShu"
+        position: absolute
+        left: 10px
+        top: 240px
+.right-wrapper
+    position: relative
+    img
+        position: absolute
+        left: 700px
+        top: 40px
+.center-wrapper
+    position: relative
+    &__lists
+        display: flex
+        flex-direction: row
+    &__lists-opt
+        color: white
+        font-size: 45px
+        margin-right: 290px
+        margin-top: 520px
+        margin-bottom: 17px
+        
+        &:last-child
+            margin-right: 0px
+    &__p1
+        color: white
+        font-size: 24px
+        Width: 190px
+        Height: 70px
+        
+    &__p2
+        position: absolute
+        color: white
+        font-size: 24px
+        Width: 250px
+        Height: 65px
+        left: 390px
+        top: 580px
+        text-align: center
+        
+    &__p3
+        color: white
+        position: absolute
+        font-size: 24px
+        Width: 300px
+        Height: 92px
+        Top: 580px
+        Left: 880px
+        text-align: center
+    &__circle1
+        background: radial-gradient(50% 50% at 50% 50%, #E726B4 0%, rgba(231, 38, 180, 0) 100%)
+        position: absolute
+        width: 86px
+        height: 80px
+        left: 250px
+        top: 525px  
+    &__circle2
+        background: radial-gradient(50% 50% at 50% 50%, #E726B4 0%, rgba(231, 38, 180, 0) 100%)
+        position: absolute
+        width: 86px
+        height: 80px
+        left: 720px
+        top: 525px
+
+.second-section
+    min-height: 800px
+    background: black
+   
+    &__container
+        //display: flex
+        //flex: row
+.right-wrappersecond
+    position: relative
+    .title
+        color: rgba(193, 19, 138, 1)
+        font-size: 85px
+        width: 419px
+        height: 98px
+        font-family: "mr_VlaShu"
+        position: absolute
+        top: 98px
+        left: 710px
+            
+    .text
+        position: absolute
+        width: 400px
+        height: 98px
+        color: white
+        top: 231px
+        left: 710px
+        font-family: "Dela Gothic One"
+        text-align: center
+        font-size: 23px
+    &__noc1
+        width: 17px
+        height: 17px
+        background: rgba(205, 33, 160, 1)
+        border: 4px solid  rgba(80, 180, 181, 1)
+        border-radius: 100px
+        position: absolute
+        left: 700px
+        top: 460px
+        //border: rgba(80, 180, 181, 1)
+    &__noc2
+        width: 17px
+        height: 17px
+        background: rgba(205, 33, 160, 1)
+        border: 4px solid  rgba(80, 180, 181, 1)
+        border-radius: 100px
+        position: absolute
+        left: 700px
+        top: 515px
+    &__noc3
+        width: 17px
+        height: 17px
+        background: rgba(205, 33, 160, 1)
+        border: 4px solid  rgba(80, 180, 181, 1)
+        border-radius: 100px
+        position: absolute
+        left: 700px
+        top: 590px
+    &__uslug
+        position: relative
+        width: 432px
+        //height: 253px
+        top: 449px
+        left: 725px
+        margin-bottom: 50px
+        
+        //font-family: "Dela Gothic One"
+    &__uslug-p
+        color: white
+        font-size: 30px
+        margin-bottom: 30px
+        &:last-child
+            margin-bottom: 0px
+        //text-align: center
+.left-wrappersecond
+    position: relative
+    bottom: 1px
+    &__img
+        position: absolute
+        top: -140px
+        left: 10px
+        width: 455.33px
+        height: 588.04px
+    &__img2
+        position: absolute
+        width: 239px
+        height: 239px
+        left: 570px
+        top: -280px
+    &__img3
+        position: absolute
+        width: 187px
+        height: 187px
+        top: 310px
+        left: 970px
+    &__img4
+        position: absolute
+        width: 241px
+        height: 241px
+        left: 2px
+        top: 290px
+.third-section
+    min-height: 800px
+    background: black
+    &__container
+        position: relative
+    &__container-lessons
+        color: rgba(193, 19, 138, 1)
+        font-size: 85px
+        width: 419px
+        height: 98px
+        font-family: "mr_VlaShu"
+        position: absolute
+        left: 375px
+    &__container-k1
+        position: absolute
+        width: 357px
+        height: 532px
+        background: linear-gradient(180deg, rgba(39, 106, 113, 0.8245) 0%, rgba(79, 161, 172, 0.2125) 3.44%, rgba(186, 50, 185, 0.4845) 81.65%, rgba(211, 24, 188, 0.85) 100%)
+        border-radius: 22px
+        top: 200px
+    &__container-k2
+        position: absolute
+        width: 357px
+        height: 532px
+        background: linear-gradient(180deg, rgba(39, 106, 113, 0.8245) 0%, rgba(79, 161, 172, 0.2125) 3.44%, rgba(186, 50, 185, 0.4845) 81.65%, rgba(211, 24, 188, 0.85) 100%)
+        border-radius: 22px
+        top: 200px
+        left: 400px
+    &__container-k3
+        position: absolute
+        width: 357px
+        height: 532px
+        background: linear-gradient(180deg, rgba(39, 106, 113, 0.8245) 0%, rgba(79, 161, 172, 0.2125) 3.44%, rgba(186, 50, 185, 0.4845) 81.65%, rgba(211, 24, 188, 0.85) 100%)
+        border-radius: 22px
+        top: 200px
+        left: 800px
+    &__container-p1
+        position: absolute
+        width: 282px
+        height: 367.28px
+        top: 250px
+        left: 36px
+        border-radius: 22px
+        z-index: 1
+    &__container-p2
+        position: absolute
+        width: 282px
+        height: 367.28px
+        top: 250px
+        left: 436px
+        border-radius: 22px
+        z-index: 1
+    &__container-p3
+        position: absolute
+        width: 282px
+        height: 367.28px
+        top: 250px
+        left: 836px
+        border-radius: 22px
+        z-index: 1
+    &__container-w1
+        position: absolute
+        width: 304px
+        height: 391.84px
+        background: linear-gradient(180deg, rgba(39, 106, 113, 0.8245) 0%, rgba(79, 161, 172, 0.2125) 3.44%, rgba(186, 50, 185, 0.4845) 81.65%, rgba(211, 24, 188, 0.85) 100%)
+        border-radius: 22px
+        top: 235px
+        left: 25px
+    &__container-w2
+        position: absolute
+        width: 304px
+        height: 391.84px
+        background: linear-gradient(180deg, rgba(39, 106, 113, 0.8245) 0%, rgba(79, 161, 172, 0.2125) 3.44%, rgba(186, 50, 185, 0.4845) 81.65%, rgba(211, 24, 188, 0.85) 100%)
+        border-radius: 22px
+        top: 235px
+        left: 425px
+    &__container-w3
+        position: absolute
+        width: 304px
+        height: 391.84px
+        background: linear-gradient(180deg, rgba(39, 106, 113, 0.8245) 0%, rgba(79, 161, 172, 0.2125) 3.44%, rgba(186, 50, 185, 0.4845) 81.65%, rgba(211, 24, 188, 0.85) 100%)
+        border-radius: 22px
+        top: 235px
+        left: 825px
+    &__container-name1
+        color: white
+        font-family: "mr_VlaShu"
+        position: absolute
+        width: 288px
+        height: 18px
+        top: 635px
+        left: 40px
+    &__container-op1
+        color: white
+        position: absolute
+        width: 245px
+        height: 48px
+        top: 655px
+        left: 55px
+        text-align: center
+    &__container-name2
+        color: white
+        font-family: "mr_VlaShu"
+        position: absolute
+        width: 288px
+        height: 18px
+        top: 635px
+        left: 425px
+        text-align: center
+    &__container-op2
+        color: white
+        position: absolute
+        width: 245px
+        height: 48px
+        top: 655px
+        left: 455px
+        text-align: center
+    &__container-name3
+        color: white
+        font-family: "mr_VlaShu"
+        position: absolute
+        width: 288px
+        height: 18px
+        top: 635px
+        left: 835px
+        text-align: center
+    &__container-op3
+        
+        color: white
+        position: absolute
+        width: 245px
+        height: 48px
+        top: 655px
+        left: 855px
+        text-align: center
+.fourth-section
+    min-height: 100px
+    background: black
+    &__container
+        position: relative
+    &__contaner-end
+        color: rgba(193, 19, 138, 1)
+        font-size: 85px
+        width: 419px
+        height: 98px
+        font-family: "mr_VlaShu"
+        position: absolute
+        left: 270px
+    
+    &__container-text
+        position: absolute
+        width: 277px
+        height: 29px
+        color: black
+        left: 1050px
+        color: white
+        font-size: 25px
+    &__container-text1
+        position: absolute
+        width: 277px
+        height: 29px
+        color: black
+        left: 650px
+        color: white
+        font-size: 25px
